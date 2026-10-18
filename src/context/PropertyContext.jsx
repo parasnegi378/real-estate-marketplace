@@ -4,11 +4,11 @@ import { INITIAL_PROPERTIES, OFFICE_DETAILS } from '../data/properties';
 const PropertyContext = createContext(null);
 
 const STORAGE_KEYS = {
-  PROPERTIES: 'mahakal_properties_v4',
-  FAVORITES: 'mahakal_favorites_v4',
-  VISITS: 'mahakal_site_visits_v4',
-  LEADS: 'mahakal_leads_v4',
-  REGISTERED: 'mahakal_registered_v4'
+  PROPERTIES: 'mahakal_properties_v5',
+  FAVORITES: 'mahakal_favorites_v5',
+  VISITS: 'mahakal_site_visits_v5',
+  LEADS: 'mahakal_leads_v5',
+  REGISTERED: 'mahakal_registered_v5'
 };
 
 const DEFAULT_FILTERS = {

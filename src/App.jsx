@@ -93,7 +93,7 @@ function MarketplaceContent() {
                 : '2, 3 & 4 BHK Fully Furnished Flats in Indraprastha Yojana (201102)'}
             </h2>
             <p className="text-xs sm:text-sm text-slate-500 font-medium mt-1">
-              Mahakal Property • GDA Approved & Immediate Freehold Registry • 90% Loan from SBI, PNB, HDFC
+              Mahakal Properties • Best Property Dealer in Tila - Jawali Marg, Ghaziabad (201102) • 90% Loan Approved
             </p>
           </div>
 

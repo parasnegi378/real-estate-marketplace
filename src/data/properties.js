@@ -528,10 +528,10 @@ export const NEARBY_LANDMARKS = [
 ];
 
 export const OFFICE_DETAILS = {
-  name: "Mahakal Property",
+  name: "Mahakal Properties",
   hindiName: "महाकाल प्रॉपर्टी",
-  tagline: "Indraprastha Yojana, Ghaziabad's Most Trusted Property Advisors",
-  address: "Shop No. 12 & 14, Main Commercial Complex, Opposite Central Park, Pocket B, Indraprastha Yojana, Ghaziabad, Uttar Pradesh",
+  tagline: "Best Property Dealer in Tila - Jawali Marg, Ghaziabad (201102)",
+  address: "Shop No. 12 & 14, Tila - Jawali Marg, Main Commercial Complex, Opposite Central Park, Pocket B, Indraprastha Yojana, Ghaziabad, Uttar Pradesh",
   pinCode: "201102",
   phonePrimary: "+91 98187 20735",
   phoneDisplay: "9818720735",

@@ -99,16 +99,16 @@ export default function Footer() {
               </div>
               <div>
                 <span className="text-2xl font-black tracking-tight text-white">
-                  Mahakal <span className="text-amber-500">Property</span>
+                  Mahakal <span className="text-amber-500">Properties</span>
                 </span>
-                <span className="block text-xs font-bold text-amber-400/90">
-                  महाकाल प्रॉपर्टी • इंद्रप्रस्थ योजना, गाजियाबाद (201102)
+                <span className="block text-xs font-bold text-amber-400">
+                  Best Property Dealer in Tila - Jawali Marg, Ghaziabad (201102)
                 </span>
               </div>
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              Your trusted property office in Indraprastha Yojana (Pin 201102). 100% Fully Furnished 2 BHK, 3 BHK & 4 BHK Flats starting from ₹20 Lakhs to ₹90 Lakhs with 90% bank loan.
+              Best Property Dealer in Tila - Jawali Marg, Ghaziabad (201102) & Indraprastha Yojana. 100% Fully Furnished 2 BHK, 3 BHK & 4 BHK Flats starting from ₹20 Lakhs to ₹90 Lakhs with 90% bank loan.
             </p>
 
             {/* Quick Callback form */}
@@ -197,7 +197,7 @@ export default function Footer() {
               <p className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
                 <span className="text-slate-300">
-                  Opposite Central Park, Pocket B, Indraprastha Yojana, Ghaziabad - <strong>201102</strong>
+                  Tila - Jawali Marg, Opposite Central Park, Pocket B, Indraprastha Yojana, Ghaziabad - <strong>201102</strong>
                 </span>
               </p>
 
@@ -237,7 +237,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© 2026 Mahakal Property (महाकाल प्रॉपर्टी) • Phone: +91 98187 20735 • Pin Code: 201102</p>
+          <p>© 2026 Mahakal Properties • Best Property Dealer in Tila - Jawali Marg, Ghaziabad (201102) • Phone: +91 98187 20735</p>
           <div className="flex items-center gap-4">
             <span>Indraprastha Yojana, Ghaziabad</span>
             <span>•</span>

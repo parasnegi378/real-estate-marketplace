@@ -83,15 +83,19 @@ export default function HeroSection() {
         </div>
 
         {/* Hero Title */}
-        <div className="text-center max-w-3xl mx-auto mb-7">
+        <div className="text-center max-w-4xl mx-auto mb-7">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs sm:text-sm font-extrabold mb-3.5 shadow-md">
+            <span>⭐ Best Property Dealer in Tila - Jawali Marg, Ghaziabad (201102)</span>
+          </div>
+
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight mb-3">
-            Fully Furnished Flats in <br className="hidden sm:inline" />
+            Best Property Dealer in Tila - Jawali Marg, Ghaziabad (201102) <br className="hidden sm:inline" />
             <span className="bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-200 bg-clip-text text-transparent">
-              Indraprastha Yojana, Ghaziabad (201102)
+              Mahakal Properties • Fully Furnished Flats
             </span>
           </h1>
           <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal max-w-2xl mx-auto">
-            <strong>Mahakal Property</strong> presents GDA Approved 100% Fully Furnished Flats near Delhi-Dehradun Expressway. 
+            <strong>Mahakal Properties</strong> is the <strong>Best Property Dealer in Tila - Jawali Marg, Ghaziabad (201102)</strong> & Indraprastha Yojana near Delhi-Dehradun Expressway. 
             <strong> 2 BHK: ₹20L–₹35L | 3 BHK: ₹40L–₹60L | 4 BHK: ₹65L–₹90L</strong>. 
             90% Loan from SBI, PNB, HDFC with just <strong>₹5,100 Booking Amount</strong>.
           </p>
