@@ -145,7 +145,7 @@ export default function RegistrationModal() {
                 type="tel"
                 required
                 maxLength={10}
-                placeholder="9548804676"
+                placeholder="9818720735"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value.replace(/[^0-9]/g, ''))}
                 className="w-full bg-slate-50 border border-slate-300 rounded-xl pl-12 pr-3.5 py-2.5 text-sm font-bold text-slate-900 placeholder:text-slate-400 focus:outline-hidden focus:border-amber-500 focus:bg-white transition-colors tracking-wider font-mono"

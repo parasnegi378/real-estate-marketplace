@@ -184,7 +184,7 @@ export default function SiteVisitModal() {
                   type="tel"
                   required
                   maxLength={10}
-                  placeholder="9548804676"
+                  placeholder="9818720735"
                   value={clientPhone}
                   onChange={(e) => setClientPhone(e.target.value.replace(/[^0-9]/g, ''))}
                   className="w-full bg-slate-50 border border-slate-300 rounded-xl pl-11 pr-3.5 py-2.5 text-xs sm:text-sm font-bold text-slate-900 focus:outline-hidden focus:border-amber-500 focus:bg-white font-mono"
@@ -341,7 +341,7 @@ export default function SiteVisitModal() {
                 className="py-2.5 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-xs rounded-xl shadow-xs transition-all flex items-center justify-center gap-1.5"
               >
                 <MessageSquare className="w-3.5 h-3.5" />
-                <span>WhatsApp: 9548804676</span>
+                <span>WhatsApp: 9818720735</span>
               </a>
 
               <a

@@ -188,7 +188,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 5: Office Contacts with Google Maps Link & 9548804676 */}
+          {/* Column 5: Office Contacts with Google Maps Link & +91 98187 20735 */}
           <div>
             <h5 className="text-white font-bold text-xs uppercase tracking-wider mb-4">
               Contact & Location
@@ -216,14 +216,14 @@ export default function Footer() {
               <p className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-amber-400 shrink-0" />
                 <a href={getCallLink()} className="hover:text-white font-black text-amber-400 text-sm">
-                  9548804676
+                  +91 98187 20735
                 </a>
               </p>
 
               <p className="flex items-center gap-2">
                 <MessageSquare className="w-4 h-4 text-[#25D366] shrink-0" />
                 <a href={getWhatsAppLink()} target="_blank" rel="noopener noreferrer" className="hover:text-white font-bold text-[#25D366]">
-                  WhatsApp: 9548804676
+                  WhatsApp: +91 98187 20735
                 </a>
               </p>
 
@@ -237,7 +237,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© 2026 Mahakal Property (महाकाल प्रॉपर्टी) • Phone: 9548804676 • Pin Code: 201102</p>
+          <p>© 2026 Mahakal Property (महाकाल प्रॉपर्टी) • Phone: +91 98187 20735 • Pin Code: 201102</p>
           <div className="flex items-center gap-4">
             <span>Indraprastha Yojana, Ghaziabad</span>
             <span>•</span>

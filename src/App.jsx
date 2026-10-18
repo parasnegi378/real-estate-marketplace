@@ -129,7 +129,7 @@ function MarketplaceContent() {
             </div>
             <h3 className="text-xl font-bold text-slate-800 mb-2">No Matching Flats Found</h3>
             <p className="text-xs text-slate-500 mb-6 leading-relaxed">
-              We couldn't find any flats matching your selected filters in Indraprastha Yojana. Try clearing some filters or call our office at 9548804676 directly.
+              We couldn't find any flats matching your selected filters in Indraprastha Yojana. Try clearing some filters or call our office at 9818720735 directly.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3">
               <button
@@ -194,7 +194,7 @@ function MarketplaceContent() {
                 className="px-5 py-3.5 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-xs sm:text-sm rounded-2xl shadow-sm transition-all flex items-center gap-2"
               >
                 <MessageSquare className="w-4 h-4" />
-                <span>WhatsApp: 9548804676</span>
+                <span>WhatsApp: 9818720735</span>
               </a>
 
               <a
@@ -300,7 +300,7 @@ function MarketplaceContent() {
                   How to visit Mahakal Property Office or request free cab pickup?
                 </h4>
                 <p className="leading-relaxed">
-                  Our office is located at Pocket B, Indraprastha Yojana, Ghaziabad (Pin 201102). You can view our location on Google Maps at <a href={getMapsLink()} target="_blank" rel="noopener noreferrer" className="text-amber-600 font-bold underline">https://maps.app.goo.gl/H95uMghqPPZCSbRK6</a> or call us directly on <strong>9548804676</strong> for free car pickup from Dilshad Garden Metro Station.
+                  Our office is located at Pocket B, Indraprastha Yojana, Ghaziabad (Pin 201102). You can view our location on Google Maps at <a href={getMapsLink()} target="_blank" rel="noopener noreferrer" className="text-amber-600 font-bold underline">https://maps.app.goo.gl/H95uMghqPPZCSbRK6</a> or call us directly on <strong>9818720735</strong> for free car pickup from Dilshad Garden Metro Station.
                 </p>
               </div>
             </div>
@@ -316,18 +316,18 @@ function MarketplaceContent() {
           target="_blank"
           rel="noopener noreferrer"
           className="p-3.5 bg-[#25D366] hover:bg-[#20ba5a] text-white rounded-full shadow-2xl flex items-center gap-2 font-bold text-xs group transition-all transform hover:scale-110 active:scale-95"
-          title="WhatsApp Mahakal Property (9548804676)"
+          title="WhatsApp Mahakal Property (9818720735)"
         >
           <MessageSquare className="w-5 h-5" />
-          <span className="hidden sm:inline pr-1">WhatsApp (9548804676)</span>
+          <span className="hidden sm:inline pr-1">WhatsApp (9818720735)</span>
         </a>
         <a
           href={getCallLink()}
           className="p-3.5 bg-amber-500 hover:bg-amber-400 text-slate-950 rounded-full shadow-2xl flex items-center gap-2 font-black text-xs group transition-all transform hover:scale-110 active:scale-95"
-          title="Call Mahakal Property Office (9548804676)"
+          title="Call Mahakal Property Office (9818720735)"
         >
           <Phone className="w-5 h-5 text-slate-950" />
-          <span className="hidden sm:inline pr-1">Call: 9548804676</span>
+          <span className="hidden sm:inline pr-1">Call: 9818720735</span>
         </a>
       </div>
 
@@ -345,7 +345,7 @@ function MarketplaceContent() {
         <button
           onClick={() => setIsOwnerLeadsDrawerOpen(true)}
           className="px-3.5 py-3 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs rounded-full shadow-2xl flex items-center gap-1.5 transition-all transform hover:scale-105 active:scale-95"
-          title="मालिक के लीड्स और फ़ोन नंबर (9548804676)"
+          title="मालिक के लीड्स और फ़ोन नंबर (9818720735)"
         >
           <Users className="w-4 h-4 text-slate-950" />
           <span>लीड्स ({leads.length})</span>

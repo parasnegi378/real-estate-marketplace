@@ -98,7 +98,7 @@ export default function Navbar() {
               className="hover:text-amber-400 flex items-center gap-1 transition-colors text-white"
             >
               <Phone className="w-3.5 h-3.5 text-amber-400" />
-              <span>Call: 9548804676</span>
+              <span>Call: 9818720735</span>
             </a>
 
             <a
@@ -336,7 +336,7 @@ export default function Navbar() {
               className="w-full py-3 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-xs rounded-xl flex items-center justify-center gap-2"
             >
               <MessageSquare className="w-4 h-4" />
-              <span>WhatsApp Mahakal Property (9548804676)</span>
+              <span>WhatsApp Mahakal Property (9818720735)</span>
             </a>
 
             <a
@@ -344,7 +344,7 @@ export default function Navbar() {
               className="w-full py-3 bg-slate-900 text-white font-bold text-xs rounded-xl flex items-center justify-center gap-2"
             >
               <Phone className="w-4 h-4 text-amber-400" />
-              <span>Call Office: 9548804676</span>
+              <span>Call Office: 9818720735</span>
             </a>
           </div>
         </div>

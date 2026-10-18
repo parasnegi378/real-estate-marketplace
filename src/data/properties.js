@@ -56,8 +56,8 @@ export const INITIAL_PROPERTIES = [
     ],
     agent: {
       name: "Mahakal Property Office",
-      phone: "+91 95488 04676",
-      whatsapp: "919548804676",
+      phone: "+91 98187 20735",
+      whatsapp: "919818720735",
       email: "contact@mahakalproperty.com",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=250&q=80",
       rating: 4.98
@@ -118,8 +118,8 @@ export const INITIAL_PROPERTIES = [
     ],
     agent: {
       name: "Mahakal Property Office",
-      phone: "+91 95488 04676",
-      whatsapp: "919548804676",
+      phone: "+91 98187 20735",
+      whatsapp: "919818720735",
       email: "contact@mahakalproperty.com",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=250&q=80",
       rating: 4.98
@@ -179,8 +179,8 @@ export const INITIAL_PROPERTIES = [
     ],
     agent: {
       name: "Mahakal Property Office",
-      phone: "+91 95488 04676",
-      whatsapp: "919548804676",
+      phone: "+91 98187 20735",
+      whatsapp: "919818720735",
       email: "contact@mahakalproperty.com",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=250&q=80",
       rating: 4.96
@@ -240,8 +240,8 @@ export const INITIAL_PROPERTIES = [
     ],
     agent: {
       name: "Mahakal Property Office",
-      phone: "+91 95488 04676",
-      whatsapp: "919548804676",
+      phone: "+91 98187 20735",
+      whatsapp: "919818720735",
       email: "contact@mahakalproperty.com",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=250&q=80",
       rating: 4.98
@@ -301,8 +301,8 @@ export const INITIAL_PROPERTIES = [
     ],
     agent: {
       name: "Mahakal Property Office",
-      phone: "+91 95488 04676",
-      whatsapp: "919548804676",
+      phone: "+91 98187 20735",
+      whatsapp: "919818720735",
       email: "contact@mahakalproperty.com",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=250&q=80",
       rating: 4.96
@@ -361,8 +361,8 @@ export const INITIAL_PROPERTIES = [
     ],
     agent: {
       name: "Mahakal Property Office",
-      phone: "+91 95488 04676",
-      whatsapp: "919548804676",
+      phone: "+91 98187 20735",
+      whatsapp: "919818720735",
       email: "contact@mahakalproperty.com",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=250&q=80",
       rating: 4.98
@@ -419,8 +419,8 @@ export const INITIAL_PROPERTIES = [
     ],
     agent: {
       name: "Mahakal Property Office",
-      phone: "+91 95488 04676",
-      whatsapp: "919548804676",
+      phone: "+91 98187 20735",
+      whatsapp: "919818720735",
       email: "contact@mahakalproperty.com",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=250&q=80",
       rating: 4.96
@@ -478,8 +478,8 @@ export const INITIAL_PROPERTIES = [
     ],
     agent: {
       name: "Mahakal Property Office",
-      phone: "+91 95488 04676",
-      whatsapp: "919548804676",
+      phone: "+91 98187 20735",
+      whatsapp: "919818720735",
       email: "contact@mahakalproperty.com",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=250&q=80",
       rating: 4.98
@@ -533,9 +533,9 @@ export const OFFICE_DETAILS = {
   tagline: "Indraprastha Yojana, Ghaziabad's Most Trusted Property Advisors",
   address: "Shop No. 12 & 14, Main Commercial Complex, Opposite Central Park, Pocket B, Indraprastha Yojana, Ghaziabad, Uttar Pradesh",
   pinCode: "201102",
-  phonePrimary: "+91 95488 04676",
-  phoneDisplay: "9548804676",
-  whatsapp: "919548804676",
+  phonePrimary: "+91 98187 20735",
+  phoneDisplay: "9818720735",
+  whatsapp: "919818720735",
   email: "contact@mahakalproperty.com",
   mapsUrl: "https://maps.app.goo.gl/H95uMghqPPZCSbRK6",
   timings: "Open 7 Days a Week: 9:00 AM – 8:30 PM",

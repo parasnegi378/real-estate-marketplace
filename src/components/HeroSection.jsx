@@ -114,7 +114,7 @@ export default function HeroSection() {
               className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-black transition-all shadow-md"
             >
               <Phone className="w-3.5 h-3.5" />
-              <span>Call: 9548804676</span>
+              <span>Call: 9818720735</span>
             </a>
 
             <a
