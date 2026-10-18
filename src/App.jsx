@@ -103,7 +103,7 @@ function MarketplaceContent() {
               className="inline-flex items-center gap-1.5 px-4 py-2.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs rounded-xl shadow-xs transition-colors"
             >
               <Calendar className="w-4 h-4 text-slate-950" />
-              <span>Book Visit (Free Cab)</span>
+              <span>Book Appointment / Site Visit</span>
             </button>
             <a
               href={getMapsLink()}
@@ -184,7 +184,7 @@ function MarketplaceContent() {
                 className="px-6 py-3.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs sm:text-sm rounded-2xl shadow-lg shadow-amber-500/25 transition-all flex items-center gap-2 transform active:scale-95"
               >
                 <Calendar className="w-4 h-4 text-slate-950" />
-                <span>Book Free Site Visit (Free Cab)</span>
+                <span>Book Appointment / Site Visit (Free Cab)</span>
               </button>
 
               <a

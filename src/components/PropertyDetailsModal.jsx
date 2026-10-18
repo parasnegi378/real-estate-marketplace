@@ -355,7 +355,7 @@ export default function PropertyDetailsModal() {
                   className="w-full py-3.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-black text-xs sm:text-sm rounded-2xl shadow-lg shadow-amber-500/25 transition-all flex items-center justify-center gap-2 transform active:scale-98"
                 >
                   <Calendar className="w-4 h-4" />
-                  <span>Book Free Site Visit (Free Cab)</span>
+                  <span>Book Appointment / Site Visit (Free Cab)</span>
                 </button>
 
                 <a

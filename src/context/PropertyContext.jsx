@@ -226,25 +226,30 @@ export function PropertyProvider({ children }) {
 
   // Register Visitor Lead
   const registerVisitorLead = (visitorData) => {
-    dispatchNotificationToOwner({
+    try {
+      localStorage.setItem(STORAGE_KEYS.REGISTERED, 'true');
+      if (visitorData.name) localStorage.setItem('mahakal_user_name', visitorData.name);
+      if (visitorData.phone) localStorage.setItem('mahakal_user_phone', visitorData.phone);
+      if (visitorData.bhkPreference) localStorage.setItem('mahakal_user_bhk', visitorData.bhkPreference);
+    } catch (e) {
+      console.error(e);
+    }
+
+    const waUrl = dispatchNotificationToOwner({
       type: 'Registration',
       name: visitorData.name,
       phone: visitorData.phone,
       bhk: visitorData.bhkPreference
     });
 
-    try {
-      localStorage.setItem(STORAGE_KEYS.REGISTERED, 'true');
-    } catch (e) {
-      console.error(e);
-    }
-
     setIsRegistrationModalOpen(false);
 
     showToast(
-      `धन्यवाद ${visitorData.name}! आपका मोबाइल नंबर महाकाल प्रॉपर्टी (${OFFICE_DETAILS.phoneDisplay}) पर भेज दिया गया है। हमारी टीम जल्द आपसे संपर्क करेगी।`,
+      `धन्यवाद ${visitorData.name}! आपका रजिस्ट्रेशन हो गया है और महाकाल प्रॉपर्टी (${OFFICE_DETAILS.phoneDisplay}) पर अलर्ट भेज दिया गया है।`,
       'success'
     );
+
+    return waUrl;
   };
 
   // Book Site Visit Appointment
@@ -256,8 +261,15 @@ export function PropertyProvider({ children }) {
     };
     setSiteVisits((prev) => [newVisit, ...prev]);
 
+    try {
+      if (visitData.clientName) localStorage.setItem('mahakal_user_name', visitData.clientName);
+      if (visitData.clientPhone) localStorage.setItem('mahakal_user_phone', visitData.clientPhone);
+    } catch (e) {
+      console.error(e);
+    }
+
     // Dispatch WhatsApp Notification to Owner 9548804676
-    dispatchNotificationToOwner({
+    const waUrl = dispatchNotificationToOwner({
       type: 'Appointment',
       name: visitData.clientName,
       phone: visitData.clientPhone,
@@ -270,10 +282,12 @@ export function PropertyProvider({ children }) {
     });
 
     showToast(
-      `साइट विजिट बुक हो गई! अपॉइंटमेंट का मैसेज महाकाल प्रॉपर्टी मालिक (${OFFICE_DETAILS.phoneDisplay}) पर चला गया है। टीम ${visitData.clientPhone} पर संपर्क करेगी।`,
+      `अपॉइंटमेंट बुक हो गई! साइट विजिट का मैसेज महाकाल प्रॉपर्टी मालिक (${OFFICE_DETAILS.phoneDisplay}) पर WhatsApp भेज दिया गया है।`,
       'success'
     );
     setIsSiteVisitModalOpen(false);
+
+    return waUrl;
   };
 
   // Quick Callback Request

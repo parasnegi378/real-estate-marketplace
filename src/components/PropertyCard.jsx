@@ -195,10 +195,10 @@ export default function PropertyCard({ property }) {
 
               <button
                 onClick={handleSiteVisitClick}
-                className="px-3.5 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs rounded-xl shadow-sm flex items-center gap-1.5"
+                className="px-3.5 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs rounded-xl shadow-sm flex items-center gap-1.5 transition-all transform active:scale-95"
               >
                 <Calendar className="w-3.5 h-3.5" />
-                <span>Book @ ₹5,100</span>
+                <span>Book Appointment / Site Visit</span>
               </button>
             </div>
           </div>
@@ -335,10 +335,10 @@ export default function PropertyCard({ property }) {
 
           <button
             onClick={handleSiteVisitClick}
-            className="flex-1 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs rounded-xl shadow-xs flex items-center justify-center gap-1 transition-colors"
+            className="flex-1 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs rounded-xl shadow-xs flex items-center justify-center gap-1 transition-all transform active:scale-95"
           >
             <Calendar className="w-3.5 h-3.5 text-slate-950" />
-            <span>Visit @ ₹5,100</span>
+            <span>Book Appointment / Site Visit</span>
           </button>
         </div>
 

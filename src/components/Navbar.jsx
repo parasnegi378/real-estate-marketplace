@@ -213,7 +213,7 @@ export default function Navbar() {
               className="flex items-center gap-1.5 px-3.5 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs rounded-xl shadow-md shadow-amber-500/25 hover:shadow-lg transition-all transform active:scale-95"
             >
               <Calendar className="w-4 h-4 text-slate-950" />
-              <span>Book Visit</span>
+              <span>Book Appointment / Site Visit</span>
             </button>
 
             {/* List Property */}
@@ -260,9 +260,10 @@ export default function Navbar() {
             </a>
             <button
               onClick={() => openSiteVisit(null)}
-              className="px-2.5 py-1.5 bg-amber-500 text-slate-950 font-black text-[11px] rounded-lg"
+              className="px-2.5 py-1.5 bg-amber-500 text-slate-950 font-black text-[11px] rounded-lg flex items-center gap-1"
             >
-              Visit
+              <Calendar className="w-3 h-3" />
+              <span>Book Appointment</span>
             </button>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -325,7 +326,7 @@ export default function Navbar() {
               className="w-full py-3 bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-center rounded-xl shadow-md flex items-center justify-center gap-2"
             >
               <Calendar className="w-4 h-4" />
-              <span>Book Free Site Visit (Free Cab)</span>
+              <span>Book Appointment / Site Visit (Free Cab)</span>
             </button>
 
             <a

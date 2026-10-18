@@ -267,7 +267,7 @@ export default function HeroSection() {
               className="text-xs font-extrabold text-amber-800 hover:text-amber-900 flex items-center gap-1 hover:underline"
             >
               <Calendar className="w-3.5 h-3.5 text-amber-600" />
-              <span>Book Site Visit (Free Cab)</span>
+              <span>Book Appointment / Site Visit (Free Cab)</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </button>
           </div>
